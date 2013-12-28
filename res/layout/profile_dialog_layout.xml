@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+              android:layout_width="fill_parent" android:layout_height="fill_parent"
+              android:background="#ffffff"
+              android:orientation="vertical" android:padding="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Profile Name" />
+    
+    <EditText android:id="@+id/profilename" android:layout_width="fill_parent" 
+               android:layout_height="wrap_content"
+               android:inputType="text|textEmailAddress" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Router Hostname (without http:// and end slash)\nor IP Address" />
+    
+    <EditText android:id="@+id/ipaddress" android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:inputType="text|textEmailAddress" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Username" />
+    
+    <EditText android:id="@+id/username" android:layout_width="fill_parent" 
+              android:layout_height="wrap_content"
+              android:inputType="text|textEmailAddress" />
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Password" />
+    
+    <EditText android:id="@+id/password" android:layout_width="fill_parent" 
+              android:layout_height="wrap_content" 
+              android:inputType="textPassword"/>
+</LinearLayout>
